@@ -1,17 +1,10 @@
 {
   "name": "com.venelin.androidtoast",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "displayName": "Android Toast",
   "description": "Shows toast messages",
   "unity": "2019.1",
   "unityRelease": "0b5",
-  "samples": [ 
-		{
-			"displayName": "Android Toast Sample", 
-			"description": "Description", 
-			"path": "Samples/AndroidToast" 
-		} 
-	],
   "author": {
     "name": "Venelin Vasilev",
     "email": "venellinus@yahoo.com"
