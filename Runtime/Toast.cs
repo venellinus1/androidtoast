@@ -5,14 +5,8 @@ using System.Collections;
 using System.Threading.Tasks;
 namespace venelin.androidutils
 {
-    public class Toast : MonoBehaviour
-    {
-        public UnityEvent onButtonClick;
-        private Button button;
-
-        public GameObject targetGO;
-        public string methodName;
-
+    public class Toast
+    {       
         public static void ShowToast(string toastString)
         {
             Debug.Log("ShowToastShowToast");
