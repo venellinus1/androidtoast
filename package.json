@@ -9,7 +9,7 @@
 		{
 			"displayName": "Android Toast Sample", 
 			"description": "Description", 
-			"path": "Samples~/AndroidToast" 
+			"path": "Samples/AndroidToast" 
 		} 
 	],
   "author": {
