@@ -4,12 +4,11 @@ using UnityEngine.Events;
 using System.Collections;
 using System.Threading.Tasks;
 namespace venelin.androidutils
-{
+{    
     public class Toast
-    {       
+    {        
         public static void ShowToast(string toastString)
         {
-            Debug.Log("ShowToastShowToast");
             if (Application.platform == RuntimePlatform.Android)
             {
                 var UnityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
