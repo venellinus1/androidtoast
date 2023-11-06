@@ -1,7 +1,7 @@
 The package provides a UI button and Android Toast message method.
 Install: 
 1. Open Unity - Window - Package Manager
-2. Click on + button at upper left to add package - Select Add package from git URL..
+2. Click on + button at upper left to add package - Select Add package from git URL
  
 3. In the url field paste this git url: https://github.com/venellinus1/androidtoast.git
 
@@ -17,6 +17,12 @@ Android Toast
 1. Add the namespace: 
 using venelin.androidutils;
 2. Sample implementation:
-Toast.ShowToast("some text");
+//import the namespace
+using venelin.androidutils;
+
+void ToastExample(string message) {
+   Toast.ShowToast(message);
+}
+
 
 Note: When the package is installed, if TextMeshPro was not been initialized yet it may show this window  - please click on Import TMP Essentials 
